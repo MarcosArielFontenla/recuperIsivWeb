@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER TITULO */
+header {
+    text-align: center;
+    background: rgb(202, 134, 7);
+    color: #fff;
+    height: 8rem;
+}
+
+header .header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+/* FIN HEADER TITULO */
+
+/* FORM SECTION */
+form {
+    border: 1px solid rgb(228, 219, 219);
+    border-radius: 10px;
+    height: 17rem;
+}
+
+.display-data-person {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+section form .row .button-container {
+    margin-top: 28px;
+}
+
+section form .row .button-container button {
+    padding: 6px 20px;
+    background-color: rgb(202, 134, 7);
+    color: #fff;
+}
+/* FIN FORM SECTION */
+
+/* FECHA SECTION */
+section .container .date-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(228, 219, 219);
+    border-radius: 10px;
+    height: 16rem;
+}
+
+section .container .date-wrapper .date-body-wrapper {
+    margin-top: 1rem;
+}
+
+section .container .date-wrapper .date-body-wrapper .date-day h1 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+section .container .date-wrapper .date-body-wrapper .date-month {
+    margin-top: 1rem;
+}
+
+section .container .date-wrapper .date-body-wrapper .date-month p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+}
+/* FIN FECHA SECTION */
+
+/* PREGUNTAS SECTION */
+section .container .list-architecture-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(228, 219, 219);
+    border-radius: 10px;
+    height: 16rem;
+}
+/* FIN PREGUNTAS SECTION */
